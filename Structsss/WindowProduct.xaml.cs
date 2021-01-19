@@ -44,29 +44,29 @@ namespace Structsss
             DialogResult = false;
         }
 
-        //public string getName()
-        //{
-        //    return NAME.Text;
-        //}
+        public string getName()
+        {
+            return NAME.Text;
+        }
 
-        //public DateTime? getPD()
-        //{
-        //    return PRODUCTION_DATE.SelectedDate;
-        //}
+        public DateTime? getPD()
+        {
+            return PRODUCTION_DATE.SelectedDate;
+        }
 
-        //public DateTime? getED()
-        //{
-        //    return EXPIRATION_DATE.SelectedDate;
-        //}
+        public DateTime? getED()
+        {
+            return EXPIRATION_DATE.SelectedDate;
+        }
 
-        //public int getPrice()
-        //{
-        //    return int.Parse(PRICE.Text);
-        //}
+        public int getPrice()
+        {
+            return int.Parse(PRICE.Text);
+        }
 
-        //public int getSN()
-        //{
-        //    return int.Parse(SERIAL_NUMBER.Text);
-        //}
+        public int getSN()
+        {
+            return int.Parse(SERIAL_NUMBER.Text);
+        }
     }
 }
