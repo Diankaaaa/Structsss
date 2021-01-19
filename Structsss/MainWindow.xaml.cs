@@ -70,11 +70,11 @@ namespace Structsss
                 if(window.ShowDialog() == true)
                 {
                     Product p = new Product();
-                    p.name = window.NAME.Text;
-                    p.production_date = window.PRODUCTION_DATE.SelectedDate;
-                    p.expiration_date = window.EXPIRATION_DATE.SelectedDate;
-                    p.price = int.Parse(window.PRICE.Text);
-                    p.serial_number = int.Parse(window.SERIAL_NUMBER.Text);
+                    p.name = window.getName();
+                    p.production_date = window.getPD();
+                    p.expiration_date = window.getED();
+                    p.price = window.getPrice();
+                    p.serial_number = window.getPrice();
                     productes[i] = p;
                     Product.Items.Add(p.name);
                 }
